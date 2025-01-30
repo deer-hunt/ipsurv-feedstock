@@ -3,11 +3,19 @@ About ipsurv-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipsurv-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/deer-hunt/ipsurv
+Home: https://deer-hunt.github.io/ipsurv/
 
 Package license: MIT
 
-Summary: "IpSurv" is a command-line program for surveying IP addresses, host information, and more. Also "IpSurv" is extensible program by Python.
+Summary: "IpSurv" is the tools for IP address and network investigation. There are multiple commands. Investigating IP information, server response, and packet capture tool like "tcpdump".
+
+Development: https://github.com/deer-hunt/ipsurv
+
+Documentation: https://deer-hunt.github.io/ipsurv/
+
+"ipsurv" can investigate IP address information and the response status of external server.
+"ipscap" is a packet capture tool similar to "tcpdump". "ipscap" has various filtering options, displays IP-header and TCP-header, UDP-header, and dumping files functions.
+
 
 Current build status
 ====================
