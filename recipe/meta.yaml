@@ -1,5 +1,5 @@
 {% set name = "ipsurv" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set python_min = "3.6" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipsurv-{{ version }}.tar.gz
-  sha256: bdd41580a454ddbcc36814baec046b91ae3b4aff66e810651df8853a6359bb2b
+  sha256: 0ca725a448f062e58fbb14db1a69cda236c530f54d47c8f625d7ebf1a052a10f
 
 build:
   number: 0
@@ -42,8 +42,8 @@ about:
   license_file: LICENSE.md
   summary: '"IpSurv" is the tools for IP address and network investigation. There are multiple commands. Investigating IP information, server response, and packet capture tool like "tcpdump".'
   description: |
-      "ipsurv" can investigate IP address information and the response status of external server.
-      "ipscap" is a packet capture tool similar to "tcpdump". "ipscap" has various filtering options, displays IP-header and TCP-header, UDP-header, and dumping files functions.
+    "ipsurv" can investigate IP address information and the response status of external server.
+    "ipscap" is a packet capture tool similar to "tcpdump". "ipscap" has various filtering options, displays IP-header and TCP-header, UDP-header, and dumping files functions.
   dev_url: https://github.com/deer-hunt/ipsurv
   doc_url: https://deer-hunt.github.io/ipsurv/
 
