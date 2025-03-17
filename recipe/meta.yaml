@@ -44,6 +44,7 @@ about:
   description: |
     "ipsurv" can investigate IP address information and the response status of external server.
     "ipscap" is a packet capture tool similar to "tcpdump". "ipscap" has various filtering options, displays IP-header and TCP-header, UDP-header, and dumping files functions.
+    "ipsend" is a network transmission tool that supports TCP, SSL, UDP, and Raw sockets, as well as interactive transmission.
   dev_url: https://github.com/deer-hunt/ipsurv
   doc_url: https://deer-hunt.github.io/ipsurv/
 
